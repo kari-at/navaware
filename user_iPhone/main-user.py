@@ -10,13 +10,13 @@ from objc_util import NSBundle, ObjCClass, on_main_thread
 
 ####### IP ADDRESSES #######
 # user IP (iPhone)
-#u_ip = "172.20.10.1"
-u_ip = "192.168.0.107"
+u_ip = "172.20.10.1"
+#u_ip = "192.168.0.107"
 u_port = 8000
 
 # puppeteer IP (iPad)
-#p_ip = "172.20.10.7"
-p_ip = "192.168.0.102"
+p_ip = "172.20.10.7"
+#p_ip = "192.168.0.102"
 p_port = 2370
 
 ####### LANGUAGE #######
@@ -91,6 +91,11 @@ def pButtonText_output(address, *args):
 
 if __name__ == "__main__":
 		# console.clear()
+		
+		# ----- DEFINING CLIENT ----- #
+		# address (on destination device) you are sending messages to
+		client = SimpleUDPClient(p_ip, p_port)
+		print("Sending on {}, port {}".format(p_ip, p_port))
 		
 		# ----- DISPATCHER ----- #
 		# when a message is received, the dispatcher sends it to a function that acts on the message
