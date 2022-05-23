@@ -10,13 +10,13 @@ import sound
 
 ####### IP ADDRESSES #######
 # user IP (iPhone)
-#u_ip = "172.20.10.1"
-u_ip = "192.168.0.107"
+u_ip = "172.20.10.1"
+#u_ip = "192.168.0.107"
 u_port = 8000
 
 # puppeteer IP (iPad)
-#p_ip = "172.20.10.7"
-p_ip = "192.168.0.102"
+p_ip = "172.20.10.7"
+#p_ip = "192.168.0.102"
 p_port = 2370
 
 ####### LANGUAGE #######
@@ -114,11 +114,6 @@ if __name__ == "__main__":
 		# ----- START UI ----- #
 		v = ui.load_view()
 		v.present('fullscreen')
-		
-		# ----- DEFINING CLIENT ----- #
-		# address (on destination device) you are sending messages to
-		client = SimpleUDPClient(p_ip, p_port)
-		print("Sending on {}, port {}".format(p_ip, p_port))
 		
 		# ----- DEFINING CLIENT ----- #
 		# address (on destination device) you are sending messages to
