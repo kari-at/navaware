@@ -1,0 +1,359 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{80, 104}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pButtonVibe_input",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Vibrate",
+          "uuid" : "656C7848-8F2F-4093-9E85-0BBA9B1AF79D",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{658, 210}, {80, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pButtonText_input",
+          "frame" : "{{344, 496}, {80, 32}}",
+          "title" : "Send",
+          "uuid" : "B52AD48B-3B52-49C6-AE7A-C7C04D354E94",
+          "class" : "Button",
+          "name" : "button2",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{42, 344}, {372, 287}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "21817F49-45FA-4AF5-A968-B6635C5AE7FE",
+          "flex" : "WH",
+          "editing" : false,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{284, 412}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 2,
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 15,
+          "row_height" : 40,
+          "class" : "TableView",
+          "name" : "tableInstructions",
+          "data_source_action" : "pTextfield_display"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{49, 210}, {589, 40}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{284, 496}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "5534E12C-70AA-42E9-B981-BC55610689CD",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "instruction",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{42, 860}, {696, 66}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "0B11B3C3-06AC-4430-B878-7D7C483B9444",
+          "font_size" : 15,
+          "background_color" : "RGBA(0.957547,0.957547,0.957547,1.000000)",
+          "frame" : "{{284, 412}, {200, 200}}",
+          "editable" : true,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "alpha" : 1,
+          "font_name" : "CourierNewPSMT",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "console",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{670, 716}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "pSwitchWalk_annotate",
+          "frame" : "{{359, 497}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switchWalk",
+          "uuid" : "60A3BF8A-AEBF-4712-938A-C6C36668D128"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{567, 716}, {83, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "annotateWalk",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Walking",
+          "font_size" : 15,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{567, 755}, {83, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Exploring",
+          "name" : "annotateExplore",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{670, 755}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "pSwitchExplore_annotate",
+          "frame" : "{{359, 497}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switchExplore",
+          "uuid" : "92B194B6-96A9-449D-84A7-F88D5F6B9461"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{567, 677}, {138, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Annotation",
+          "name" : "label1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{384, 677}, {138, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Earcon",
+          "name" : "label1",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{384, 716}, {138, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pButtonEarcon1_input",
+          "frame" : "{{344, 459}, {80, 32}}",
+          "title" : "double beep",
+          "uuid" : "5FFC6963-68B8-410D-BC4A-D042221A77DC",
+          "class" : "Button",
+          "name" : "button3",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{49, 305}, {138, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Instructions",
+          "font_size" : 15,
+          "name" : "label1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{49, 651}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{359, 460}, {51, 31}}",
+          "value" : false,
+          "tint_color" : "RGBA(1.000000,0.000000,1.000000,1.000000)",
+          "class" : "Switch",
+          "name" : "switchUp",
+          "uuid" : "80F023A6-DAE1-4015-A005-4A3A6792037C"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{49, 717}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{359, 460}, {51, 31}}",
+          "value" : false,
+          "tint_color" : "RGBA(0.333333,0.000000,1.000000,1.000000)",
+          "class" : "Switch",
+          "name" : "switchDown",
+          "uuid" : "6E62DDF5-2394-4A11-8826-E00FE8D7A56D"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{514, 36}, {224, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "frame" : "{{309, 459}, {150, 32}}",
+          "uuid" : "3F54C586-3EA1-4A70-BBD5-9AAE350A39AB",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "———",
+          "name" : "labelClient",
+          "font_name" : "CourierNewPSMT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{514, 76}, {224, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "CourierNewPSMT",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "uuid" : "3F54C586-3EA1-4A70-BBD5-9AAE350A39AB",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "———",
+          "font_size" : 15,
+          "name" : "labelServer"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{421, 36}, {85, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "CourierNewPSMT",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "uuid" : "3F54C586-3EA1-4A70-BBD5-9AAE350A39AB",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Client",
+          "font_size" : 15,
+          "name" : "label2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{421, 76}, {85, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label3",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "uuid" : "3F54C586-3EA1-4A70-BBD5-9AAE350A39AB",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Server",
+          "font_size" : 15,
+          "font_name" : "CourierNewPSMT"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {768, 950}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
