@@ -1,0 +1,12 @@
+Destination set to Joy Espresso and More. Reorient to find the direction.
+Do not walk down the stairs ahead.
+Go through the tunnel ahead.
+Cross the bike path and zebra crossing ahead.
+Cross the zebra crossing and bike path ahead.
+Cross the street ahead.
+Walk up the stairs ahead.
+Destination is on your left.
+-----
+Is the volume ok for you?
+You are on a pedestrian path with shops on both sides.
+Walk down the stairs ahead.

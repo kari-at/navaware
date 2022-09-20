@@ -1,0 +1,11 @@
+You are in an open space with some planted trees.
+You are inside a tunnel under some buildings.
+You are on a large street.
+You are on a wide pedestrian island with some planted trees. Green space on left, traffic on right.
+You are on a wide sidewalk with some planted trees. Traffic on left, green space on right.
+You are on a small street.
+You are on a small pedestrian path. Shops on left, green space on right.
+-----
+You are on a pedestrian path. Rotterdam Blaak train station on right, Blaak metro station on left.
+You are on a pedestrian path. Rotterdam Blaak train station on right.
+

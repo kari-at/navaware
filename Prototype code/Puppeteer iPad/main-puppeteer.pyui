@@ -1,0 +1,633 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{625, 157}, {120, 120}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pButtonText1_input",
+          "border_width" : 0,
+          "frame" : "{{344, 496}, {80, 32}}",
+          "title" : "Send",
+          "uuid" : "B52AD48B-3B52-49C6-AE7A-C7C04D354E94",
+          "class" : "Button",
+          "background_color" : "RGBA(0.493095,0.945098,0.493095,1.000000)",
+          "font_bold" : true,
+          "corner_radius" : 20,
+          "name" : "button2",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{237, 285}, {508, 207}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "21817F49-45FA-4AF5-A968-B6635C5AE7FE",
+          "data_source_action" : "pTextEnvDes_display",
+          "flex" : "WH",
+          "frame" : "{{284, 412}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 1,
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 15,
+          "row_height" : 40,
+          "class" : "TableView",
+          "name" : "tableEnvDes",
+          "editing" : false
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{237, 157}, {380, 81}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "5534E12C-70AA-42E9-B981-BC55610689CD",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.956863,0.956863,0.956863,1.000000)",
+          "frame" : "{{284, 496}, {200, 32}}",
+          "border_color" : "RGBA(0.203922,0.945098,0.203922,1.000000)",
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "textEnvDes",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{116, 893}, {313, 65}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "0B11B3C3-06AC-4430-B878-7D7C483B9444",
+          "font_size" : 15,
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{284, 412}, {200, 200}}",
+          "editable" : true,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "alpha" : 1,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "CourierNewPSMT",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "console",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 383}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "pSwitchWalk_annotate",
+          "frame" : "{{359, 497}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switchWalk",
+          "uuid" : "60A3BF8A-AEBF-4712-938A-C6C36668D128"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 344}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "pSwitchExplore_annotate",
+          "frame" : "{{359, 497}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switchExplore",
+          "uuid" : "92B194B6-96A9-449D-84A7-F88D5F6B9461"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{81, 344}, {137, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Reorienting",
+          "name" : "label1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{81, 383}, {137, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Following route",
+          "name" : "label1",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 216}, {196, 81}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pButtonEarcon_input",
+          "border_width" : 0,
+          "frame" : "{{344, 459}, {80, 32}}",
+          "title" : "Confirm",
+          "uuid" : "5FFC6963-68B8-410D-BC4A-D042221A77DC",
+          "class" : "Button",
+          "background_color" : "RGBA(0.674510,0.674510,1.000000,1.000000)",
+          "font_bold" : true,
+          "corner_radius" : 20,
+          "name" : "button3",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{237, 246}, {380, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "  Environment description",
+          "background_color" : "RGBA(0.912863,1.000000,0.912863,1.000000)",
+          "font_size" : 15,
+          "name" : "label1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{584, 893}, {185, 33}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "uuid" : "3F54C586-3EA1-4A70-BBD5-9AAE350A39AB",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "———",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "labelClient",
+          "font_name" : "CourierNewPSMT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{584, 925}, {185, 33}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "font_name" : "CourierNewPSMT",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "uuid" : "3F54C586-3EA1-4A70-BBD5-9AAE350A39AB",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "———",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "labelServer",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{427, 893}, {159, 33}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 15,
+          "font_name" : "CourierNewPSMT",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "uuid" : "3F54C586-3EA1-4A70-BBD5-9AAE350A39AB",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : " Client (iPad)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "label2",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{427, 925}, {159, 33}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label3",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "uuid" : "3F54C586-3EA1-4A70-BBD5-9AAE350A39AB",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : " Server (iPhone)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 15,
+          "font_name" : "CourierNewPSMT"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{427, 628}, {318, 246}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "21817F49-45FA-4AF5-A968-B6635C5AE7FE",
+          "flex" : "WH",
+          "editing" : false,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{284, 412}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 1,
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 15,
+          "row_height" : 40,
+          "class" : "TableView",
+          "name" : "tableStruct",
+          "data_source_action" : "pTextStruct_display"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{427, 589}, {190, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "  Street structures",
+          "background_color" : "RGBA(0.891304,1.000000,1.000000,1.000000)",
+          "font_size" : 15,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{237, 500}, {380, 81}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "5534E12C-70AA-42E9-B981-BC55610689CD",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.956863,0.956863,0.956863,1.000000)",
+          "frame" : "{{284, 496}, {200, 32}}",
+          "border_color" : "RGBA(0.411765,0.901961,0.901961,1.000000)",
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "textStruct",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{625, 500}, {120, 120}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "pButtonText2_input",
+          "border_width" : 0,
+          "frame" : "{{344, 496}, {80, 32}}",
+          "title" : "Send",
+          "uuid" : "B52AD48B-3B52-49C6-AE7A-C7C04D354E94",
+          "class" : "Button",
+          "background_color" : "RGBA(0.411765,0.901961,0.901961,1.000000)",
+          "font_bold" : true,
+          "corner_radius" : 20,
+          "name" : "button2",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 589}, {397, 285}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{335, 429}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageMap",
+          "uuid" : "B413BF07-C258-41C0-AF71-809560C34C29"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 16}, {196, 133}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 5,
+          "frame" : "{{335, 429}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.021739,1.021739,1.000000)",
+          "uuid" : "8C8ADDB9-BD0A-4DAB-A655-AA95EA2F95D6",
+          "border_color" : "RGBA(0.239216,0.239216,1.000000,1.000000)",
+          "name" : "viewDirection"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 61}, {196, 46}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 0,
+          "name" : "labelDirection",
+          "text_color" : "RGBA(0.239216,0.239216,1.000000,1.000000)",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "class" : "Label",
+          "uuid" : "7DCF3DA2-96D9-4EEC-972B-7106B40E8AAB",
+          "text" : "Direction",
+          "corner_radius" : 0,
+          "alignment" : "center",
+          "font_size" : 15,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{237, 16}, {508, 133}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 5,
+          "frame" : "{{335, 429}, {100, 100}}",
+          "border_color" : "RGBA(0.203922,0.945098,0.203922,1.000000)",
+          "corner_radius" : 0,
+          "class" : "View",
+          "uuid" : "8C8ADDB9-BD0A-4DAB-A655-AA95EA2F95D6",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "viewEnvDes"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{237, 61}, {508, 46}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 0,
+          "name" : "labelEnvDes",
+          "font_name" : "<System-Bold>",
+          "frame" : "{{309, 459}, {150, 32}}",
+          "class" : "Label",
+          "uuid" : "7DCF3DA2-96D9-4EEC-972B-7106B40E8AAB",
+          "text" : "Environment description",
+          "corner_radius" : 0,
+          "alignment" : "center",
+          "font_size" : 15,
+          "text_color" : "RGBA(0.203922,0.945098,0.203922,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 305}, {196, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "  Behavior annotation",
+          "background_color" : "RGBA(1.000000,0.913043,0.913043,1.000000)",
+          "font_size" : 15,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{81, 422}, {137, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Other",
+          "font_size" : 15,
+          "name" : "label1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 422}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "uuid" : "60A3BF8A-AEBF-4712-938A-C6C36668D128",
+          "frame" : "{{359, 497}, {51, 31}}",
+          "value" : false,
+          "class" : "Switch",
+          "name" : "switchOther",
+          "action" : "pSwitchOther_annotate"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 157}, {196, 51}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "5FFC6963-68B8-410D-BC4A-D042221A77DC",
+          "corner_radius" : 20,
+          "background_color" : "RGBA(0.920427,0.920427,0.962264,1.000000)",
+          "frame" : "{{344, 459}, {80, 32}}",
+          "border_width" : 0,
+          "title" : "Change body orientation",
+          "action" : "pButtonTextBody_input",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button3",
+          "font_size" : 10
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 500}, {94, 81}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "5FFC6963-68B8-410D-BC4A-D042221A77DC",
+          "corner_radius" : 20,
+          "background_color" : "RGBA(0.411765,0.901961,0.901961,1.000000)",
+          "frame" : "{{344, 459}, {80, 32}}",
+          "border_width" : 0,
+          "title" : "Left",
+          "action" : "pButtonTextLeft_input",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "buttonLeft",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{124, 500}, {94, 81}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "5FFC6963-68B8-410D-BC4A-D042221A77DC",
+          "corner_radius" : 20,
+          "background_color" : "RGBA(0.411765,0.901961,0.901961,1.000000)",
+          "frame" : "{{344, 459}, {80, 32}}",
+          "border_width" : 0,
+          "title" : "Right",
+          "action" : "pButtonTextRight_input",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "buttonRight",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 461}, {196, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "3BE891A4-9205-4B3B-BD23-8763EA7F1245",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "  Turning point",
+          "background_color" : "RGBA(0.891304,1.000000,1.000000,1.000000)",
+          "name" : "label1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 893}, {116, 64}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "5FFC6963-68B8-410D-BC4A-D042221A77DC",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,0.804348,0.804348,1.000000)",
+          "frame" : "{{344, 459}, {80, 32}}",
+          "border_width" : 0,
+          "title" : "STOP",
+          "action" : "pButtonTextStop_input",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "buttonStop",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {769, 957}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

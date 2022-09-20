@@ -1,0 +1,10 @@
+U bent in een open ruimte met enkele geplante bomen.
+Je bent in een tunnel onder sommige gebouwen.
+Je bent in een grote straat.
+Je bent op een breed voetgangerseiland met wat geplante bomen. Groene ruimte links, verkeer rechts.
+Je bent op een breed trottoir met wat geplante bomen. Verkeer aan de linkerkant, groene ruimte rechts.
+Je bent in een kleine straat.
+Je bent op een klein voetgangerspad. Winkels aan de linkerkant, groene ruimte rechts.
+-----
+Je bent op een voetgangerspad. Rotterdam Blaak treinstation rechts, Blaak Metro Station aan de linkerkant.
+Je bent op een voetgangerspad. Rotterdam Blaak treinstation rechts.
